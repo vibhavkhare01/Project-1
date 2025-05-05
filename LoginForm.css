@@ -1,0 +1,106 @@
+.login-container {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .form-box {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  p {
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  form {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+  }
+  
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-row label {
+    margin-left: 5px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .social-buttons button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .apple {
+    background-color: black;
+    color: white;
+  }
+  
+  .google {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    color: #212529;
+  }
+  
+  .register-text {
+    margin-top: 20px;
+    font-size: 13px;
+  }
